@@ -15,15 +15,15 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dhruv Kumar — Full-Stack Developer",
+  title: "Ritik Tomar — Full-Stack Developer",
   description:
-    "Full-stack developer from Punjab, India building AI-powered products end-to-end — from RAG pipelines to production payment systems.",
+    "Full-stack developer from Madhya Pradesh, India passionate to build modern and scalable web products that ships.",
   openGraph: {
-    title: "Dhruv Kumar — Full-Stack Developer",
+    title: "Ritik Tomar — Full-Stack Developer",
     description:
-      "Full-stack developer from Punjab, India building AI-powered products end-to-end — from RAG pipelines to production payment systems.",
-    url: "https://github.com/dhruvkumar1805",
-    siteName: "Dhruv Kumar",
+      "Full-stack developer from Madhya Pradesh, India passionate to build modern and scalable web products that ships.",
+    url: "https://github.com/ritiktomar10x",
+    siteName: "Ritik Tomar",
     type: "website",
   },
 };
