@@ -25,13 +25,14 @@ import {
   SiVercel,
   SiGnubash,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaHtml5  } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa6";
 import { TbBrandAzure, TbBrain, TbVector,TbBrandMysql } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
 import { FiCode } from "react-icons/fi";
 import { hexToRgba } from "../lib/color";
 import SectionHeading from "./SectionHeading";
-
+import { BsCss } from "react-icons/bs";
 type Skill = { name: string; color: string; Icon: IconType };
 type SkillCategory = { cat: string; items: Skill[] };
 
@@ -46,16 +47,17 @@ const baseCats: SkillCategory[] = [
     cat: "Languages",
     items: [sk("Java", "#3178c6", FaJava),
       sk("JavaScript", "#f7df1e", SiJavascript),
-      sk("TypeScript", "#3178c6", SiTypescript),
+      // sk("TypeScript", "#3178c6", SiTypescript),
     ],
   },
   {
     cat: "Frontend",
-    items: [
+    items: [sk("HTML", "#FFFF00", FaHtml5),
+      sk("CSS", "#00FFFF", BsCss),
       sk("React", "#61dafb", SiReact),
-      sk("Next.js", "#bfc4cc", SiNextdotjs),
       sk("Tailwind", "#38bdf8", SiTailwindcss),
-      sk("Framer Motion", "#ff4d9d", SiFramer),
+      sk("Bootstrap", "#DDDDDD", FaBootstrap),
+      // sk("Framer Motion", "#ff4d9d", SiFramer),
     ],
   },
   {

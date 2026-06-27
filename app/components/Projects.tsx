@@ -35,7 +35,7 @@ const projects = [
     desc: "Developed a MERN-based e-commerce platform that allows users to discover products, manage carts, place orders securely, and enjoy a smooth shopping experience through a responsive interface.",
     stack: ["React.js", "Express.js", "MongoDB","RazorPay"],
     url: "https://ecommerce-frontend-9efy.onrender.com",
-    linkLabel: "source ↗",
+    linkLabel: "visit ↗",
   },
   // {
   //   title: "ritiktomar.dev",
