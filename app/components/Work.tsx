@@ -10,7 +10,7 @@ const jobs = [
     role: "Associate Software Development Engineer",
     year: "'26",
     kind: "Development",
-    date: "Sept 2026",
+    date: "Sept 2026 - Present",
     bullets: [
       "Contributed to the design and development of production-grade web applications, translating business requirements into scalable technical solutions.",
       "Developed and integrated REST APIs, authentication, database operations, and third-party services while following established coding and development practices.",
