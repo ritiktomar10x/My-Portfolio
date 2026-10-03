@@ -56,7 +56,7 @@ export default function Projects() {
   return (
     <div>
       <SectionHeading
-        number="02"
+        number="03"
         title="projects"
         id="projects"
         icon={FiFolder}

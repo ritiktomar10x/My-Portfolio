@@ -6,7 +6,7 @@ export default function Education() {
   return (
     <div>
       <SectionHeading
-        number="03"
+        number="04"
         title="education"
         id="education"
         icon={FiBookOpen}

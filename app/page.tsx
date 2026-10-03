@@ -21,7 +21,7 @@ export default function Home() {
         <ContributionGraph />
       </Suspense>
       <Skills />
-      {/* <Work /> */}
+      <Work />
       <Projects />
       <Education />
       <Contact />
